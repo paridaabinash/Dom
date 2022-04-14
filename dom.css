@@ -1,0 +1,14 @@
+
+
+.contain {
+    display: flex;
+    gap: 10px;
+}
+
+.item {
+    height: 100px;
+    width: 80px;
+    background-color: orangered;
+    border-radius: 10px;
+
+}
