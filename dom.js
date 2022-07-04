@@ -90,10 +90,6 @@ updateyear();
 
 //Q11
 let div = document.getElementById('div');
-div.style.width = '100px';
-div.style.height = '100px';
-div.style.backgroundColor = 'red';
-
 
 let nameEl = document.createElement('input');
 nameEl.type = 'name';
