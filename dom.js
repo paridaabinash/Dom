@@ -88,6 +88,37 @@ document.getElementById("updatey").innerText = "Year is: " + update;
 }
 updateyear();
 
+//Q11
+let div = document.getElementById('div');
+div.style.width = '100px';
+div.style.height = '100px';
+div.style.backgroundColor = 'red';
+
+
+let nameEl = document.createElement('input');
+nameEl.type = 'name';
+nameEl.placeholder = 'Enter Full Name';
+div.appendChild(nameEl);
+
+
+let mailEl = document.createElement('input');
+mailEl.type = 'email';
+mailEl.placeholder = 'domain@prepbytes.com';
+div.appendChild(mailEl);
+
+
+let phoneEl = document.createElement('input');
+phoneEl.type = 'tel';
+phoneEl.value = '+91 ';
+phoneEl.min = '10';
+div.appendChild(phoneEl);
+
+
+let bdayEl = document.createElement('input');
+bdayEl.type = 'date';
+bdayEl.min = "1995-01-01";
+div.appendChild(bdayEl);
+
 
 
 
